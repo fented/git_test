@@ -1,3 +1,3 @@
 # git_test
 
-"Hello Odin!" said, Loki.
+This is just a testing Repo. Might find some cool stuff here later, who knows.
