@@ -1,7 +1,7 @@
 import requests
 
 
-api_key = "live_w3DI7xX6ISzqM4DrhwTDqAIwSwWQqknTeSL7Jw3zFAFF34ghQl20PdCQPbwCXWTg"
+api_key = ""
 # Get API key from: https://thecatapi.com/
 
 import requests
