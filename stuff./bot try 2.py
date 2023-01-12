@@ -28,7 +28,7 @@ async def self(interation: discord.Interaction):
 @client.event
 async def on_message(message):
     if message.content.startswith('!cat'):
-        api_key = "live_w3DI7xX6ISzqM4DrhwTDqAIwSwWQqknTeSL7Jw3zFAFF34ghQl20PdCQPbwCXWTg"
+        api_key = ""
         # Get API key from: https://thecatapi.com/
 
         def ajax_get(url):
@@ -46,4 +46,4 @@ async def on_message(message):
             url = data[0]["url"]
             await message.channel.send(url)
 
-client.run('MTA2MjAxMDExNTc5Mzg4MzIyNA.GFRItA.L0yqQyr1AzF-DVHm_zTu7mp6o6lryNpKDsKLDo')
+client.run('')
