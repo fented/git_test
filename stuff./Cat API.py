@@ -1,11 +1,9 @@
 import requests
-
+import json
 
 api_key = ""
 # Get API key from: https://thecatapi.com/
 
-import requests
-import json
 def CatAPI():
   def ajax_get(url):
     response = requests.get(url)
@@ -18,9 +16,6 @@ def CatAPI():
       return data
   data = ajax_get('https://api.thecatapi.com/v1/images/search?size=full')
   if data:
-    print(data[0]["id"])
     print(data[0]["url"])
-    html = f'<img src="{data[0]["url"]}">'
-    print(html)
 
 CatAPI()
