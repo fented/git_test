@@ -1,7 +1,7 @@
 import discord
 from discord.ext import commands
 
-TOKEN = 'MTA2MjAxMDExNTc5Mzg4MzIyNA.GFRItA.L0yqQyr1AzF-DVHm_zTu7mp6o6lryNpKDsKLDo'
+TOKEN = ''
 
 intents = discord.Intents()
 
