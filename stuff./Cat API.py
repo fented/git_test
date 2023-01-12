@@ -17,5 +17,6 @@ def CatAPI():
   data = ajax_get('https://api.thecatapi.com/v1/images/search?size=full')
   if data:
     print(data[0]["url"])
+    print(data)
 
 CatAPI()
