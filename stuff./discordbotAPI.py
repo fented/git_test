@@ -9,14 +9,22 @@ client = commands.Bot(command_prefix='cat.', intents=intents)
 
 @client.event
 async def on_ready():
-    print('Logged in as')
-    print(client.user.name)
-    print(client.user.id)
-    print('------')
+    print(f'{client.user} has connected to Discord!')
 
-@client.event
-async def on_message(message):
-    if message.content.startswith('!hello'):
-        await message.channel.send('Hello!')
+
+@client.command()
+async def hello(ctx):
+    channel = client.get_channel(1052222737092968473)
+
+    await channel.send(f'hello there {ctx.author.mention}')
+#####
+#####
+## Insert other functions here
+#####
+#####
+
+
 
 client.run(TOKEN)
+
+
