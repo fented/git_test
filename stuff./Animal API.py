@@ -3,7 +3,7 @@ import requests
 def get_animal_image(animal: str) -> str:
     """Retrieves an image URL of a cat or a dog"""
     try:
-        api_key = "live_w3DI7xX6ISzqM4DrhwTDqAIwSwWQqknTeSL7Jw3zFAFF34ghQl20PdCQPbwCXWTg" if animal == "cat" else "live_tHn7SfmqsCL4dKGwsViFeAUDm7cDf4LrHt1zz3CQYieL4t3bleXzaz5I5nYSYzBV"
+        api_key = "" if animal == "cat" else ""
         url = f'https://api.the{animal}api.com/v1/images/search?size=full&api_key={api_key}'
         response = requests.get(url)
         response.raise_for_status()
