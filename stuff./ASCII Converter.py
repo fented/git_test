@@ -1,6 +1,6 @@
-import sys
-# import this
+# I was messing with cryptography but gave up when my python script didn't work =D
 
+import sys
 
 
 #choose between encode or decode
