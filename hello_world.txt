@@ -1,3 +1,0 @@
-print("Hello World!")
-
-# This isn't a .py file dummy :^)
